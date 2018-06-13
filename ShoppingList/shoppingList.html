@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Shopping List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Shopping List</h1>
+		<p id="first">Get it done today</p>
+		<div class="input">
+			<input id="userinput" type="text" placeholder="enter items">
+			<button id="enter">Enter</button>
+		</div>
+		<ul>
+			<li class="toDo"><button class="delete">Delete</button><span id="Notebook" onclick="ChangeDoneStatus(id)" >Notebook</span></li>
+			<li class="toDo"><button class="delete">Delete</button><span id="Jello" onclick="ChangeDoneStatus(id)" >Jello</span></li>
+			<li class="toDo"><button class="delete">Delete</button><span id="Spinach" onclick="ChangeDoneStatus(id)" >Spinach</span></li>
+			<li class="toDo"><button class="delete">Delete</button><span id="Rice" onclick="ChangeDoneStatus(id)" >Rice</span></li>
+			<li class="toDo"><button class="delete">Delete</button><span id="Birthday" onclick="ChangeDoneStatus(id)" >Birthday Cake</span></li>
+			<li class="toDo"><button class="delete">Delete</button><span id="Candles" onclick="ChangeDoneStatus(id)" >Candles</span></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	<!-- <script type="text/javascript" src="script_done.js"></script> -->
+</body>
+</html>
