@@ -64,7 +64,7 @@ function createListElement() {
 
 	ul.appendChild( li );
 
-	// input.value = "";
+	input.value = "";
 
 }
 
